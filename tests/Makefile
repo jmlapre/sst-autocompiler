@@ -1,5 +1,5 @@
 test: test_tls.so
-	SST_LIB_PATH=/home/vscode/sst-elements/install/lib/sst-elements-library:. \
+	SST_LIB_PATH=/home/vscode/install/lib/sst-elements-library:. \
 	sst test_tls.py 
 
 test_tls.o: test_tls.cc
